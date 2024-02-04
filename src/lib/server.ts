@@ -1,8 +1,8 @@
 import { Datum } from "@/types/ApiType";
 
 export const getAnimeBySearch = async (
-  search: string,
-  limit: string
+  search: string | FormDataEntryValue,
+  limit: string | FormDataEntryValue
 ): Promise<Datum[]> => {
   const url = `/score/${search}/${limit}`;
   const data = await fetch(url);
