@@ -33,7 +33,7 @@ export default function RootLayout({
                 <Outlook />
               </a>
               <a
-                href="https://github.com/sebasdev584"
+                href="https://github.com/sebasdev584/comfama-challenge"
                 target="_blank"
                 rel="noopener noreferrer"
               >
